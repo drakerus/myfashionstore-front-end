@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Документ без названия</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link type="text/css" rel="stylesheet" href="css/material-design-iconic-font.min.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="css/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+<link type="text/css" rel="stylesheet" href="css/perfect-scrollbar.css">
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="mob_v header_m">
+	<div class="menu_mob">
+    	<button class="close_menu_mob"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    	<ul>
+            <li class="active"><a href="#">Каталог</a></li>
+            <li><a href="#">Индивидуальный заказ</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Рекомендации по уходу</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">Myfashionstore</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="logo_m"><a href="#"><img src="img/logo.png"></a></div>
+    <div class="pers_bl right">
+    	<button class="pers_mob"><i class="fa fa-user" aria-hidden="true"></i></button>
+        <ul>
+            <li class="active"><a href="#login_popup" class="bold open-popup-link">Вход</a></li>
+            <li><a href="#reg_popup" class="open-popup-link">Регистрация</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="main_block">
+	<div class="left_menu_bl text-center">
+    	<div class="logo"><a href="#"><img src="img/logo.png"></a></div>
+        <div class="menu">
+        	<ul>
+            	<li class="active"><a href="#">Каталог</a></li>
+            	<li><a href="#">Индивидуальный заказ</a></li>
+            	<li><a href="#">Спецпредложения</a></li>
+            	<li><a href="#">Рекомендации по уходу</a></li>
+            	<li><a href="#">Доставка и оплата</a></li>
+            	<li><a href="#">Myfashionstore</a></li>
+            	<li><a href="#">Новости</a></li>
+            	<li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="search_form_min">
+            <div id="sb-search" class="sb-search " >
+                <form>
+                    <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Поиск" onblur="monkey();" type="search" value="" name="search" id="search">
+                    <input class="sb-search-submit" type="submit"  value="">
+                    <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+                </form>
+            	<div class="clear"></div>
+            </div>
+        </div>
+        <div class="in_panel">
+        	<div class="ico_pers"></div>
+            <p><a href="#login_popup" class="open-popup-link">Вход</a>  / <a href="#reg_popup" class="open-popup-link">Регистрация</a></p>
+        </div>
+        <div class="contact_info_bl">
+        	<p class="phone">+7 (9262) 239 - 829 - 382</p>
+            <p class="date">пн -  пт 9:00 до 22:00</p>
+            <div class="mail">Info@Infogmail.com</div>
+        </div>
+    </div>
+    <div class="container_m">
+    	<div class="container">
+        	<button class="close_menu"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+            
+            <div class="title_page title_sing_page text-center">
+            	<h2>История заказов</h2>
+                <div class="line_title"><div class="line_b_title"></div></div>
+            </div>
+            <div class="sort_bl_3">
+            	<ul>
+                	<li><a href="#">Ожидается платёж (0)</a></li>
+                	<li><a href="#">Ожидается отправка (0)</a></li>
+                	<li><a href="#">Заказ отправлен (0)</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="cart_table">
+            	<table class="cart_t history_t">
+                		<thead>
+                    	<tr>
+                        	<th class="text-left">Заказ №</th>
+                        	<th class="text-left">Наименование товара</th>
+                        	<th></th>
+                        	<th>Время заказа</th>
+                        	<th>Статус заказа</th>
+                        	<th class="text-right">Сумма</th>
+                        	<th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        	<td><span class="num_prod">№: 76865941989452</span></td>
+                        	<td class="td_cart_img"><img src="img/prod2.jpg"></td>
+                        	<td>
+                            	<h3 class="name_prod">Название Футболка ХБ cotton</h3>
+                                <ul class="papam_prod">
+                                	<li>Размер изделия:   XL</li>
+                                	<li>Цвет изделия: <span class="color_cl cl_white"></span></li>
+                                </ul>
+                            </td>
+                        	<td class="text-center">
+                            	<span class="date_prod">05:57 Jul. 17 2016</span>
+                            </td>
+                        	<td class="text-center">
+                            	<span class="status_prod">Завершено</span>
+                            </td>
+                        	<td class="text-right">
+                            	<h3 class="all_price_prod">3 879 руб.</h3>
+                            </td>
+                        	<td class="text-right">
+                            	<a href="#" class="ico_trash"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td><span class="num_prod">№: 76865941989452</span></td>
+                        	<td class="td_cart_img"><img src="img/prod2.jpg"></td>
+                        	<td>
+                            	<h3 class="name_prod">Название Футболка ХБ cotton</h3>
+                                <ul class="papam_prod">
+                                	<li>Размер изделия:   XL</li>
+                                	<li>Цвет изделия: <span class="color_cl cl_white"></span></li>
+                                </ul>
+                            </td>
+                        	<td class="text-center">
+                            	<span class="date_prod">05:57 Jul. 17 2016</span>
+                            </td>
+                        	<td class="text-center">
+                            	<span class="status_prod">Завершено</span>
+                            </td>
+                        	<td class="text-right">
+                            	<h3 class="all_price_prod">3 879 руб.</h3>
+                            </td>
+                        	<td class="text-right">
+                            	<a href="#" class="ico_trash"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                        <!-- <tr>
+                        	<td></td>
+                        	<td></td>
+                        	<td> </td>
+                        	<td></td>
+                        	<td class="text-right">
+                            	<h3 class="total_prod">Итого: <span>12 456 руб.</span></h3>
+                            </td>
+                        	<td class="text-right">
+                            	<a href="#" class="button2 button3">Оформить заказ</a>
+                            </td>
+                        </tr> -->
+                </table>
+                        <div class="total_bl">
+                        	<div class="right">
+                            	<div class="left total_prod">Итого: <span>12 456 руб.</span></div>
+                                <div class="left but_pr"><a href="#" class="button2 button3">Оформить заказ</a></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+            </div>
+        <div class="footer">
+        	<div class="f_2">
+                <div class="created_block right"><a href="#"></a></div>
+                <div class="network_bl right">
+                    <ul>
+                        <li><a href="#"><i class="zmdi zmdi-youtube-play"></i></a></li>
+                        <li><a href="#"><i class="zmdi zmdi-vk"></i></a></li>
+                        <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                        <li><a href="#"><i class="zmdi zmdi-odnoklassniki"></i></a></li>
+                        <li><a href="#"><i class="zmdi zmdi-facebook-box"></i></a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        	<div class="footer_gr f_1">
+            	<div class="left">
+                	<div class="nav_footer">
+                    	<ul>
+                        	<li><a href="#">Гарантии</a></li>
+                        	<li><a href="#">Возврат и обмен товаров</a></li>
+                        	<li><a href="#">Сотрудничество</a></li>
+                        	<li><a href="#">Отзывы</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="right">
+                	<div class="pay_system_footer">
+                    	<ul>
+                        	<li><i class="fa fa-cc-visa" aria-hidden="true"></i></li>
+                        	<li><i class="fa fa-cc-mastercard" aria-hidden="true"></i></li>
+                        	<li><i class="fa fa-cc-visa" aria-hidden="true"></i></li>
+                        	<li><i class="fa fa-cc-mastercard" aria-hidden="true"></i></li>
+                        	<li><i class="fa fa-cc-mastercard" aria-hidden="true"></i></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    	</div>
+    </div>
+</div>
+
+<div id="login_popup" class="white-popup mfp-hide">
+    <div class="text_center">
+    	<h2>Вход</h2>
+        <div class="soc_bl">
+        	<ul>
+            	<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i> Войти через ВКонтакте</a></li>
+            	<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Войти через Facebook</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <form class="main_form" id="form1">
+            <label>E-mail  адрес*</label>
+            <input type="email" class="input_text_form">
+            <label>Пароль *</label>
+            <input type="email" class="input_text_form">
+            <p class="ps_z"><a href="#password_recovery_popup" class="open-popup-link">Забыли пароль?</a></p>
+            <div class="button_form_bl">
+            	<div class="left"><a href="#" class="button2 b_gray">Регистрация</a></div>
+                <div class="right"><input class="button2 b_black" value="Вход" type="submit"></div>
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="reg_popup" class="white-popup mfp-hide">
+    <div class="text_center">
+    	<h2>Регистрация</h2>
+        <div class="soc_bl">
+        	<ul>
+            	<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i> Войти через ВКонтакте</a></li>
+            	<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Войти через Facebook</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <form class="main_form" id="form2">
+        	<label>Имя</label>
+            <input type="text" class="input_text_form">
+            <label>E-mail  адрес*</label>
+            <input type="email" class="input_text_form">
+            <label>Пароль *</label>
+            <input type="email" class="input_text_form">
+            <div class="button_form_bl">
+                <div class="right"><input class="button2 b_black" value="Регистрация" type="submit"></div>
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="password_recovery_popup" class="white-popup mfp-hide">
+    <div class="text_center">
+    	<h2>Востановление доступа</h2>
+        <form class="main_form" id="form3">
+            <label>E-mail  адрес*</label>
+            <input type="email" class="input_text_form">
+            <div class="button_form_bl">
+                <div class="right"><input class="button2 b_black" value="Отправить" type="submit"></div>
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/perfect-scrollbar.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
